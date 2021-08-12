@@ -23,7 +23,11 @@ $(document).ready(function() {
    event.preventDefault();
     const number1 = parseInt($("#convert1").val());
     const result = convert(number1);
-    $("#output1").text(result);
+    if (number1 === NaN) {
+      $("#output1").text(result).hide();
+    } else {
+      $("#output1").text(result).show();
+    }
   });
 });
 
