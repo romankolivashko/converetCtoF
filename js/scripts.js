@@ -5,6 +5,12 @@ function convert(number1) {
   return result;
 }
 
+function convert(number2) {
+  const result = (number2 - 32) * 5/9;
+  return result;
+}
+
+
 // function convertCtoF(num1){
 // 	const result = (num1 * 9/5) + 32;
 //   return result;
@@ -20,6 +26,9 @@ $(document).ready(function() {
     $("#output").text(result);
   });
 });
+
+
+(32°F − 32) × 5/9 
 
 
 

@@ -1,3 +1,23 @@
+body {
+  background-color: #ecc19c;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #7fe7dc;
+}
+
 form {
   padding-top: 40px;
+}
+
+#convert1 {
+  max-width: 300px;
+}
+
+#convert2{
+  max-width: 300px;
 }
