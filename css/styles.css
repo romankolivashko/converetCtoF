@@ -21,3 +21,15 @@ form {
 #convert2{
   max-width: 300px;
 }
+
+#output1 {
+  padding-top: 15px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+#output2 {
+  padding-top: 15px;
+  padding-left: 5px;
+  font-weight: bold;
+}

@@ -2,12 +2,12 @@
 // let number1;
 function convert(number1) {
   const result = (number1 * 9/5) + 32;
-  return result;
+  return Math.floor(result);
 }
 
 function convert(number2) {
   const result = (number2 - 32) * 5/9;
-  return result;
+  return Math.floor(result);
 }
 
 
@@ -23,12 +23,20 @@ $(document).ready(function() {
    event.preventDefault();
     const number1 = parseInt($("#convert1").val());
     const result = convert(number1);
-    $("#output").text(result);
+    $("#output1").text(result);
   });
 });
 
 
-(32°F − 32) × 5/9 
+$(document).ready(function() {
+  $("form#convert").submit(function(event) {
+   event.preventDefault();
+    const number2 = parseInt($("#convert2").val());
+    const result = convert(number2);
+    $("#output2").text(result);
+  });
+});
+
 
 
 
